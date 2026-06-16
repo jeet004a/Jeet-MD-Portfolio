@@ -3,6 +3,11 @@ import styles from './page.module.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 
+export const metadata = {
+    title: "Blog - Jeet Wasti",
+};
+
+
 function Blog() {
     return (
         <div className={styles.main}>

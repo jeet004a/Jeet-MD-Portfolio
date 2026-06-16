@@ -1,6 +1,10 @@
+// 'use client';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 // import { ThemeProvider } from "@/context/ThemeContext";
+// import { headers } from 'next/headers';
+// import { usePathname } from 'next/navigation';
+
 import Providers from "./providers";
 import Script from "next/script";
 const geistSans = Geist({
@@ -18,7 +22,12 @@ export const metadata = {
   description: "Jeet Wasti",
 };
 
+
+
 export default function RootLayout({ children }) {
+  // const pathname = usePathname();
+
+  // console.log(pathname);
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>

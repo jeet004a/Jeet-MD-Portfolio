@@ -12,7 +12,8 @@ const Hero = () => {
 
             <section className={styles.wrapper}>
                 <Image
-                    src="https://media.licdn.com/dms/image/v2/D5603AQEJ9NB-w1YmXw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730827543441?e=1776297600&v=beta&t=KTXY73_gRe772kCR1yX6tgR0hS-ehKq6S-FQc3NPeBg"
+                    // src="https://media.licdn.com/dms/image/v2/D5603AQEJ9NB-w1YmXw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730827543441?e=1776297600&v=beta&t=KTXY73_gRe772kCR1yX6tgR0hS-ehKq6S-FQc3NPeBg"
+                    src="https://avatars.githubusercontent.com/u/60826412?v=4&size=64"
                     alt="Jeet Wasti profile photo"
                     width={64}
                     height={64}

@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 
 import Navbar from '@/components/navbar/Navbar'
 import Spotlight from '@/components/Spotlight/Spotlight'
@@ -7,6 +7,11 @@ import styles from './page.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '@/components/footer/Footer'
+
+export const metadata = {
+  title: "About - Jeet Wasti",
+};
+
 
 const About = () => {
   return (

@@ -6,6 +6,11 @@ import styles from './page.module.css';
 import * as THREE from 'three'
 import Link from 'next/link';
 
+// export const metadata = {
+//     title: "Magic - Jeet Wasti",
+// };
+
+
 function Magic() {
     useEffect(() => {
         let retries = 0;

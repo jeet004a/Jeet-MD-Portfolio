@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import Navbar from '@/components/navbar/Navbar'
 import React from 'react'
 import styles from './page.module.css'
@@ -23,11 +23,18 @@ import {
     SiPostgresql,
     SiMongodb,
     SiRedis,
-    SiAmazon,
+    // SiAmazon, This is depricated
     SiDocker,
     SiGit
 } from 'react-icons/si'
+import { BiLogoAmazon } from "react-icons/bi"
 import Footer from '@/components/footer/Footer';
+
+
+export const metadata = {
+    title: "Hire - Jeet Wasti",
+};
+
 
 
 function TechCard({ title, Icon, items }) {
@@ -198,7 +205,7 @@ function page() {
                             title="DevOps"
                             Icon={Workflow}
                             items={[
-                                { name: "AWS", icon: SiAmazon },
+                                { name: "AWS", icon: BiLogoAmazon },
                                 { name: "Docker", icon: SiDocker },
                                 { name: "Git", icon: SiGit },
                             ]}

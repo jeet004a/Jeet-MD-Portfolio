@@ -3,6 +3,11 @@ import React from 'react'
 import styles from './page.module.css'
 import Footer from '@/components/footer/Footer';
 
+export const metadata = {
+  title: "Uses - Jeet Wasti",
+};
+
+
 const Uses = () => {
   const items = [
     {
