@@ -56,7 +56,8 @@ const Sidebar = () => {
           <li className={styles.workItem}>
             <div className={styles.logo}>
               <Image
-                src="https://www.emerson.com/resource/blob/emerson-logo-compressed--data-5576584.png"
+                // src="https://www.emerson.com/resource/blob/emerson-logo-compressed--data-5576584.png"
+                src="/Emerson.jpg"
                 alt="Emerson"
                 width={28}
                 height={28}
