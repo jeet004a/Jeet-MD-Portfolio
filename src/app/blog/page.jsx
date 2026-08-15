@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './page.module.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
+import Link from 'next/link';
 
 export const metadata = {
     title: "Blog - Jeet Wasti",
@@ -26,22 +27,37 @@ function Blog() {
                     </h1>
                     <p className={styles.description}>
                         I&apos;m working on something great. Articles about web development,
-                        design patterns, and creative coding will be published here soon.
+                        design patterns, and creative coding will be published very soon.
                     </p>
 
                     <div className={styles.features}>
-                        <div className={styles.featureItem}>
-                            <div className={styles.featureIcon}>📝</div>
-                            <span>Technical Articles</span>
-                        </div>
-                        <div className={styles.featureItem}>
-                            <div className={styles.featureIcon}>💡</div>
-                            <span>Dev Insights</span>
-                        </div>
-                        <div className={styles.featureItem}>
-                            <div className={styles.featureIcon}>🎨</div>
-                            <span>Creative Coding</span>
-                        </div>
+                        <Link href="https://techeng-omega.vercel.app/" target='_blank'>
+                            <div className={styles.featureItem}>
+                                <div className={styles.featureIcon}>📝</div>
+                                <span>Technical Articles</span>
+                            </div>
+                        </Link>
+
+                        <Link href="https://techeng-omega.vercel.app/" target='_blank'>
+                            <div className={styles.featureItem}>
+                                <div className={styles.featureIcon}>💡</div>
+                                <span>Dev Insights</span>
+                            </div>
+                        </Link>
+
+                        <Link href="https://techeng-omega.vercel.app/" target='_blank'>
+                            <div className={styles.featureItem}>
+                                <div className={styles.featureIcon}>🎨</div>
+                                <span>Creative Coding</span>
+                            </div>
+                        </Link>
+
+                        <Link href="https://techeng-omega.vercel.app/" target='_blank'>
+                            <div className={styles.featureItem}>
+                                <div className={styles.featureIcon}>🖥️</div>
+                                <span>Tech Egineer</span>
+                            </div>
+                        </Link>
                     </div>
 
                     <a href="/" className={styles.backLink}>

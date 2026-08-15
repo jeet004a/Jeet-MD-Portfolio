@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Hero from "@/components/Hero/Hero";
 import Footer from "@/components/footer/Footer";
 import styles from './main.module.css'
-
+// import Navbar from '../New NavBar/Navbar';
 
 // export const metadata = {
 //   title: "Jeet Wasti",
@@ -13,9 +13,9 @@ import styles from './main.module.css'
 
 const Main = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.hidden}>
-        <Navbar></Navbar>
+    <div className="w-full min-h-screen">
+      <div>
+        <Navbar />
       </div>
       <Hero></Hero>
       <Footer></Footer>

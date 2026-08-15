@@ -9,11 +9,15 @@ import Main from "@/components/Main Page/Main";
 import styles from './page.module.css'
 import Link from "next/link";
 
+
 export default function Home({ Component, pageProps }) {
   // console.log(window.location.pathname)
   return (
     <div className={styles.container}>
       <Main></Main>
     </div>
+    // <div className="flex items-center justify-center">
+    //   <Main></Main>
+    // </div>
   );
 }

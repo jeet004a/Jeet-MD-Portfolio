@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
 
 
         <Providers>
-          <div className="container">
+          <div className="w-full min-h-screen">
 
             {children}
             <Script src="https://unpkg.com/sheryjs/dist/Shery.js" strategy="afterInteractive" />
